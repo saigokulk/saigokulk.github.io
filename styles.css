@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.topnav {
+  position: fixed;
+  overflow: hidden;
+  background-color: white;
+  width:100%;
+  height: 70px;
+  border-bottom: 1px solid white;
+  box-shadow:0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.name{
+  margin-left: 120px;
+	
+	list-style: none;
+	float: left;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.bell{
+	color:white;
+	float:right;
+	
+}
+.bell a:hover{
+  background-color: white;
+}
+.ab {
+	margin-top: 8px;
+	margin-right: 70px;
+	color:white;
+	float:right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+  line-height: 40px;
+  text-align: center;
+  background: #11A339;
+}
+.badge {
+
+  position: absolute;
+  right:110px;
+  top:17px;
+  width:9px;
+  height: 9px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+}
+.sidenav {
+  height: 100%; 
+  width: 70px; 
+  position: fixed; 
+  margin-top: 70px;
+  left: 0px;
+  background-color: white; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+  border-right: 1px solid white;
+  box-shadow:0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19); 
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:#06c6a3;
+}
+.textcontent{
+  margin-left:70px;
+}
+.innerbox{
+  background-color:#faffff;
+  margin-left: 100px;
+  padding: 15px 25px 15px 25px; 
+  margin-right: 150px;
+}
+
+.button{
+  background-color: white;
+  padding: 8px 30px;
+  border-radius: 6px;
+  text-align: center;
+  color:#06c6a3;
+  border:1.5px solid #06c6a3;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.grid {
+  padding: 50px 10px 50px 10px; 
+  margin-left: 100px;
+  margin-right: 150px;
+  display: flex;                       
+  flex-wrap: wrap;                     
+  justify-content: space-around;
+  
+}
+.cell {
+  flex: 0 0 31%;                       
+  height: 300px;
+  margin-bottom: 25px;
+  background-color: white;
+  box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.circle{
+  float:left;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #002b80;
+}
+.incell{
+
+  padding:20px 15px 10px 15px;
+}
+
+.button2{
+border-radius: 2px;
+background-color: white;
+  padding: 7px 40px;
+  text-align: center;
+  color:#06c6a3;
+  border:1px solid #06c6a3;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
